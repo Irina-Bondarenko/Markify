@@ -86,7 +86,8 @@ img {
   text-align: center;
   text-decoration: none;
   list-style: none;
-  padding: 0;
+  padding-top: 80px;
+  padding-left: 0;
 }
 .header .nav-list-mobile .nav-link {
   font-size: 16px;
@@ -762,6 +763,9 @@ img {
   }
 }
 @media (max-width: 767px) {
+  .services {
+    padding-bottom: 20px;
+  }
   .services__block-item-2 ul, .services__block-item-3 ul {
     padding: 0 10px;
   }

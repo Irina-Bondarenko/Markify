@@ -65,6 +65,7 @@
 
 @include tablet {
   .services {
+    padding-bottom: 20px;
     &__block-item-2,
     &__block-item-3 {
       ul {
