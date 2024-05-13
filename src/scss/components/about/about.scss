@@ -35,5 +35,6 @@
 
   &__text-item-text {
     @include body-regular-01;
+    color: $grey-dark;
   }
 }

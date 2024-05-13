@@ -107,6 +107,7 @@
 
   .menubox {
     @extend%flex-align-center;
+    background-color: $grey-super-light;
     flex-direction: column;
     position: fixed;
     visibility: hidden;

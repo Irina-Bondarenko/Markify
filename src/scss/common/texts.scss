@@ -22,6 +22,10 @@
   font-weight: 700;
   font-size: $font-size-xl;
   line-height: $line-height-md;
+  @media (max-width: $breackpoint_md) {
+    font-size: $font-size-md;
+    line-height: $line-height-sm;
+  }
 }
 
 @mixin heading-display-03 {
@@ -29,6 +33,15 @@
   font-size: $font-size-sm;
   font-weight: 700;
   line-height: $line-height-sm;
+}
+
+@mixin heading-display-03-01 {
+  font-size: $font-size-md;
+  font-weight: 700;
+  line-height: $line-height-sm;
+  @media (max-width: $breackpoint_md) {
+    font-size: $font-size-xm;
+  }
 }
 
 @mixin body-regular-01 {
