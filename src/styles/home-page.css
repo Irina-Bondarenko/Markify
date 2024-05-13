@@ -776,6 +776,12 @@ img {
     left: 40%;
     width: 8.125rem;
   }
+  .services__block-item-list {
+    flex-direction: column;
+  }
+  .services__block-item-option {
+    padding: 10px 0;
+  }
 }
 @media (max-width: 575px) {
   .services__banner-title-highlighted-2::after {

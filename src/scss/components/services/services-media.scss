@@ -84,6 +84,12 @@
       left: 40%;
       width: 8.125rem;
     }
+    &__block-item-list {
+      flex-direction: column;
+    }
+    &__block-item-option {
+      padding: 10px 0;
+    }
   }
 }
 
