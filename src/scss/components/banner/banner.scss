@@ -17,17 +17,18 @@
     @include heading-display-01;
     margin-bottom: 20px;
     position: relative;
+    max-width: 500px;
   }
 
   &__title-highlighted::after {
     content: "";
     position: absolute;
-    bottom: 6px;
+    bottom: 0.2em;
     left: 0;
-    width: 290px;
-    height: 14px;
-    background-color: $yellow;
-    border-radius: 21px;
+    width: 9em;
+    height: 0.375em;
+    background-color: #e9a923;
+    border-radius: 3.125em;
     z-index: -1;
   }
 

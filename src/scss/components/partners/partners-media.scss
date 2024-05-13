@@ -10,7 +10,7 @@
     }
 
     &__title::after {
-      left: 21%;
+      left: -1%;
     }
   }
 }
@@ -20,6 +20,10 @@
     padding-top: 50px;
     .container {
       padding: 50px;
+    }
+
+    &__title {
+      max-width: 800px;
     }
 
     &__description {
@@ -37,7 +41,7 @@
       padding: 10px;
     }
     &__title::after {
-      left: 3%;
+      left: 29%;
     }
   }
 }
@@ -46,6 +50,17 @@
     .container {
       padding: 20px;
     }
+    &__title::after {
+      left: 26%;
+    }
+  }
+}
+
+@include phone {
+  .partners {
+    &__title::after {
+      left: 1%;
+    }
   }
 }
 
@@ -53,7 +68,7 @@
   .partners {
     &__title::after {
       left: 29%;
-      width: 140px;
+      width: 8.75rem;
     }
   }
 }

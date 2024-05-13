@@ -47,17 +47,18 @@
     &__description {
       width: 100%;
     }
+
     &__title::after {
-      width: 96px;
+      width: 4em;
     }
     &__banner-title-highlighted-2::after {
-      left: 75%;
-      width: 100px;
+      left: 70%;
+      width: 6.25rem;
     }
 
     &__banner-title-highlighted-1::after {
-      left: 40%;
-      width: 130px;
+      left: 41%;
+      width: 8.125rem;
     }
   }
 }
@@ -73,26 +74,37 @@
     .container {
       padding: 20px;
     }
-    &__title::after {
-      width: 96px;
-    }
+
     &__banner-title-highlighted-2::after {
-      left: 88%;
-      width: 100px;
+      left: 75%;
+      width: 6.25rem;
     }
 
     &__banner-title-highlighted-1::after {
-      left: 34%;
-      width: 130px;
+      left: 40%;
+      width: 8.125rem;
+    }
+  }
+}
+
+@include phone {
+  .services {
+    &__banner-title-highlighted-2::after {
+      left: 50%;
+      width: 6.25rem;
+      bottom: 10%;
+    }
+
+    &__banner-title-highlighted-1::after {
+      left: 44%;
+      width: 8.125rem;
+      bottom: 61%;
     }
   }
 }
 
 @include phone-sm {
   .services {
-    &__title::after {
-      width: 96px;
-    }
     &__banner-title-highlighted-2::after {
       left: 58%;
     }

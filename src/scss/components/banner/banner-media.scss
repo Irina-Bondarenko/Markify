@@ -6,7 +6,7 @@
 
     &__title-highlighted::after {
       left: 0;
-      width: 390px;
+      width: 24.375rem;
     }
   }
 }
@@ -41,8 +41,8 @@
     }
 
     &__title-highlighted::after {
-      left: 54%;
-      width: 252px;
+      left: -1%;
+      width: 15.75rem;
     }
   }
 }
@@ -51,9 +51,19 @@
     .container {
       padding: 20px;
     }
+  }
+}
+
+@include phone {
+  .banner {
+    &__title {
+      max-width: 350px;
+    }
+
     &__title-highlighted::after {
-      left: 0;
-      width: 220px;
+      left: 39%;
+      width: 12.75rem;
+      bottom: 39%;
     }
   }
 }
@@ -65,7 +75,8 @@
     }
     &__title-highlighted::after {
       left: 0;
-      width: 160px;
+      width: 13rem;
+      bottom: 6%;
     }
   }
 }
