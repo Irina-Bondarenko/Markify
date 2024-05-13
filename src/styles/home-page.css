@@ -773,8 +773,12 @@ img {
   .services__description {
     width: 100%;
   }
+  .services__title {
+    text-align: center;
+  }
   .services__title::after {
     width: 4em;
+    left: 43%;
   }
   .services__banner-title-highlighted-2::after {
     left: 70%;
@@ -794,6 +798,9 @@ img {
   }
   .services .container {
     padding: 20px;
+  }
+  .services__title::after {
+    left: 43%;
   }
   .services__banner-title-highlighted-2::after {
     left: 75%;
@@ -816,6 +823,9 @@ img {
     width: 6.25rem;
     bottom: 10%;
   }
+  .services__title::after {
+    left: 39%;
+  }
   .services__banner-title-highlighted-1::after {
     left: 44%;
     width: 8.125rem;
@@ -823,6 +833,9 @@ img {
   }
 }
 @media (max-width: 375px) {
+  .services__title::after {
+    left: 36%;
+  }
   .services__banner-title-highlighted-2::after {
     left: 58%;
   }
