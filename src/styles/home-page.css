@@ -8,7 +8,8 @@
   align-items: center;
 }
 
-.partners__block-item {
+.partners__block-item, .banner .banner__image-purple,
+.banner .banner__image-yellow {
   display: flex;
   justify-content: center;
 }
@@ -87,6 +88,7 @@ img {
   text-decoration: none;
   list-style: none;
   padding-top: 80px;
+  padding-bottom: 40px;
   padding-left: 0;
 }
 .header .nav-list-mobile .nav-link {
@@ -295,6 +297,7 @@ img {
   top: 0;
   left: 0;
   width: 100%;
+  align-items: center;
 }
 
 @media (max-width: 1199px) {
