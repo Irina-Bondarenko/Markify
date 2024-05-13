@@ -1,0 +1,24 @@
+{
+  "name": "markify",
+  "version": "1.0.0",
+  "description": "",
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "gulp-autoprefixer": "^9.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-file-include": "^2.3.0",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-notify": "^4.0.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-postcss": "^10.0.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^5.1.0",
+    "gulp-server-livereload": "^1.9.2",
+    "gulp-sourcemaps": "^3.0.0",
+    "prettier": "^3.2.5",
+    "sass": "^1.77.1",
+    "sass-watch": "^0.1.0"
+  }
+}

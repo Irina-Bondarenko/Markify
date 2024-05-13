@@ -1,0 +1,59 @@
+@include desktop {
+  .partners {
+    .container {
+      padding: 50px;
+    }
+    &__blocks {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    &__title::after {
+      left: 21%;
+    }
+  }
+}
+
+@include laptop {
+  .partners {
+    padding-top: 50px;
+    .container {
+      padding: 50px;
+    }
+
+    &__description {
+      width: 100%;
+    }
+
+    &__content {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+
+    &__block-item {
+      width: 100%;
+      padding: 10px;
+    }
+    &__title::after {
+      left: 3%;
+    }
+  }
+}
+@include tablet {
+  .partners {
+    .container {
+      padding: 20px;
+    }
+  }
+}
+
+@include phone-sm {
+  .partners {
+    &__title::after {
+      left: 29%;
+      width: 140px;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+@include desktop {
+  .header {
+    .container {
+      padding: 50px;
+    }
+  }
+}
+
+@include laptop {
+  .header {
+    background-image: url("./../../../../src/images/backgrounds/bg_mob.png");
+    background-size: cover;
+    .container {
+      padding: 50px;
+    }
+    &__desktop-menu {
+      display: none;
+    }
+    &__mobile-menu {
+      display: block;
+    }
+  }
+}
+
+@include tablet {
+  .header {
+    .container {
+      padding: 20px;
+    }
+  }
+}

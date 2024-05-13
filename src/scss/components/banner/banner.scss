@@ -1,0 +1,79 @@
+.banner {
+  background-image: url("./../../../../src/images/backgrounds/bg_desktop.png");
+  background-size: cover;
+
+  &__content {
+    @extend %flex-space-between;
+  }
+
+  &__image {
+    max-width: 50%;
+  }
+  &__description {
+    max-width: 48%;
+  }
+
+  &__title {
+    @include heading-display-01;
+    margin-bottom: 20px;
+    position: relative;
+  }
+
+  &__title-highlighted::after {
+    content: "";
+    position: absolute;
+    bottom: 6px;
+    left: 0;
+    width: 290px;
+    height: 14px;
+    background-color: $yellow;
+    border-radius: 21px;
+    z-index: -1;
+  }
+
+  &__text {
+    @include body-regular-01;
+    color: $grey-light;
+  }
+
+  &__images {
+    position: relative;
+    height: 50px;
+  }
+
+  &__image-purple,
+  &__image-yellow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  &__image-purple {
+    z-index: 1;
+    transform: rotate(5deg);
+  }
+
+  &__image-yellow {
+    transform: rotate(-5deg);
+  }
+  &__image-purple {
+    background-color: $purple;
+  }
+  &__image-yellow {
+    background-color: $yellow;
+  }
+
+  .banner__images {
+    position: relative;
+    width: 100%;
+    height: 50px;
+  }
+
+  .banner__image-purple,
+  .banner__image-yellow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+}

@@ -1,0 +1,150 @@
+.header {
+  &__logo,
+  &__contacts {
+    z-index: 2;
+  }
+
+  &__logo {
+    width: 50%;
+  }
+
+  &__nav {
+    width: 50%;
+  }
+
+  &__nav {
+    position: relative;
+  }
+
+  .nav-link {
+    @include body-regular-01;
+    text-decoration: none;
+    color: $grey-light;
+  }
+
+  .nav-list-mobile {
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+    .nav-link {
+      @include body-regular-01;
+      text-decoration: none;
+      color: $grey-light;
+      display: block;
+      padding: 20px;
+      text-decoration: none;
+      list-style: none;
+    }
+  }
+
+  &__desktop-menu {
+    @extend %flex-space-between;
+    align-items: center;
+
+    .navbar {
+      position: relative;
+      width: 70%;
+
+      .navbar-toggler-checkbox,
+      .navbar-toggler {
+        display: none;
+      }
+
+      #navbarNav {
+        display: block;
+      }
+
+      .navbar-nav {
+        @extend %flex-space-between;
+        margin: 0;
+
+        .nav-item {
+          list-style: none;
+
+          .nav-link:hover {
+            color: $yellow;
+          }
+
+          .nav-link {
+            text-decoration: none;
+            color: $grey-light;
+            @include body-regular-01;
+          }
+        }
+      }
+    }
+  }
+  &__sign-in-button {
+    button {
+      background-color: $purple;
+      color: $white;
+      padding: 12px 24px;
+      border-radius: 5px;
+      font-size: $font-size-sm;
+      font-weight: 700;
+      cursor: pointer;
+      border: none;
+    }
+    button:hover {
+      background-color: $yellow;
+    }
+  }
+
+  &__mobile-menu {
+    display: none;
+  }
+  .menu-btn {
+    @extend %flex-align-center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 26px;
+    height: 26px;
+    cursor: pointer;
+  }
+
+  .menubox {
+    @extend%flex-align-center;
+    flex-direction: column;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 80px 0;
+    list-style: none;
+    background-color: $white;
+    color: $grey-dark;
+    transition-duration: 0.25s;
+    z-index: 10;
+  }
+
+  &__logo-mobile {
+    @extend %flex-align-center;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  #menu-toggle {
+    opacity: 0;
+  }
+
+  #menu-toggle:checked ~ .menu-btn > span {
+    transform: rotate(45deg);
+  }
+  #menu-toggle:checked ~ .menu-btn > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+  #menu-toggle:checked ~ .menu-btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu-toggle:checked ~ .menubox {
+    visibility: visible;
+    left: 0;
+  }
+}

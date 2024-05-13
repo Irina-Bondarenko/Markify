@@ -1,0 +1,83 @@
+/* FORMATS */
+
+/* .eot - IE9 Compat Modes */
+/* .eot?#iefix - IE6-IE8 */
+/* .woff2 - Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+/* .woff - Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+/* .ttf - Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+  */
+/* .svg#Exo - Legacy iOS */
+
+/* exo-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/exo-v21-latin-regular.eot");
+  src:
+    url("../fonts/exo-v21-latin-regular.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/exo-v21-latin-regular.woff2") format("woff2"),
+    url("../fonts/exo-v21-latin-regular.woff") format("woff"),
+    url("../fonts/exo-v21-latin-regular.ttf") format("truetype"),
+    url("../fonts/exo-v21-latin-regular.svg#Exo") format("svg");
+}
+/* exo-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Exo";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/exo-v21-latin-700.eot");
+  src:
+    url("../fonts/exo-v21-latin-700.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/exo-v21-latin-700.woff2") format("woff2"),
+    url("../fonts/exo-v21-latin-700.woff") format("woff"),
+    url("../fonts/exo-v21-latin-700.ttf") format("truetype"),
+    url("../fonts/exo-v21-latin-700.svg#Exo") format("svg");
+}
+
+/* open-sans-regular - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/open-sans-v40-latin-regular.eot");
+  src:
+    url("../fonts/open-sans-v40-latin-regular.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/open-sans-v40-latin-regular.woff2") format("woff2"),
+    url("../fonts/open-sans-v40-latin-regular.woff") format("woff"),
+    url("../fonts/open-sans-v40-latin-regular.ttf") format("truetype"),
+    url("../fonts/open-sans-v40-latin-regular.svg#OpenSans") format("svg");
+}
+/* open-sans-600 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/open-sans-v40-latin-600.eot");
+  src:
+    url("../fonts/open-sans-v40-latin-600.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/open-sans-v40-latin-600.woff2") format("woff2"),
+    url("../fonts/open-sans-v40-latin-600.woff") format("woff"),
+    url("../fonts/open-sans-v40-latin-600.ttf") format("truetype"),
+    url("../fonts/open-sans-v40-latin-600.svg#OpenSans") format("svg");
+}
+/* open-sans-700 - latin */
+@font-face {
+  font-display: swap;
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/open-sans-v40-latin-700.eot");
+  src:
+    url("../fonts/open-sans-v40-latin-700.eot?#iefix")
+      format("embedded-opentype"),
+    url("../fonts/open-sans-v40-latin-700.woff2") format("woff2"),
+    url("../fonts/open-sans-v40-latin-700.woff") format("woff"),
+    url("../fonts/open-sans-v40-latin-700.ttf") format("truetype"),
+    url("../fonts/open-sans-v40-latin-700.svg#OpenSans") format("svg");
+}

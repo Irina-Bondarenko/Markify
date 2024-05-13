@@ -1,0 +1,19 @@
+@include desktop {
+  .footer {
+    .navbar-nav {
+      flex-direction: column;
+    }
+    .nav-link {
+      margin-bottom: 20px;
+    }
+    .navbar-nav {
+      width: 100%;
+    }
+  }
+}
+
+@include tablet {
+  .container {
+    padding: 20px;
+  }
+}

@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Markify</title>
+
+    <link rel="stylesheet" href="./src/styles/home-page.min.css" />
+    <link href="./src/fonts/stylesheet.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="header__logo">
+            <a href="./index.html">
+              <img src="./src/images/logo/logo.svg" alt="logo" />
+            </a>
+          </div>
+          <div class="header__nav">
+            <div class="header__mobile-menu">
+              <input id="menu-toggle" type="checkbox" />
+              <label class="menu-btn" for="menu-toggle">
+                <img src="./src/images/icons/burger_menu.svg" alt="close" />
+              </label>
+
+              <div class="menubox">
+                <div class="header__logo-mobile">
+                  <a href="./index.html">
+                    <img src="./src/images/logo/footer-logo.svg" alt="logo" />
+                  </a>
+                  <label class="menu-btn-mobile" for="menu-toggle">
+                    <img src="./src/images/icons/cross.svg" alt="close" />
+                  </label>
+                </div>
+
+                <ul class="nav-list-mobile">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active"
+                      aria-current="page"
+                      href="./index.html"
+                      >Affiliates</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="./index.html"
+                      >Advertisers</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Events</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./index.html">Blog</a>
+                  </li>
+                </ul>
+                <div class="header__sign-in-button">
+                  <button type="button">Sign in</button>
+                </div>
+              </div>
+            </div>
+            <div class="header__desktop-menu">
+              <nav class="navbar">
+                <input
+                  type="checkbox"
+                  id="navbar-toggler"
+                  class="navbar-toggler-checkbox"
+                />
+                <label for="navbar-toggler" class="navbar-toggler">
+                  <span class="navbar-toggler-icon"></span>
+                </label>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active"
+                        aria-current="page"
+                        href="./index.html"
+                        >Affiliates</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link"
+                        aria-current="page"
+                        href="./index.html"
+                        >Advertisers</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./index.html">Events</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./index.html">Blog</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+              <div class="header__sign-in-button">
+                <button type="button">Sign in</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="banner">
+        <div class="container">
+          <div class="row">
+            <div class="banner__content">
+              <div class="banner__image">
+                <img src="./src/images/banner-img.png" alt="banner" />
+              </div>
+              <div class="banner__description">
+                <h2 class="banner__title">
+                  Lorem Ipsum Dolor Sit Amet Consectetur.
+                  <span class="banner__title-highlighted"
+                    >Mi Cras Non Non Quis</span
+                  >.
+                </h2>
+                <p class="banner__text">
+                  Lorem ipsum dolor sit amet consectetur. Faucibus nunc et
+                  mattis at feugiat sagittis volutpat. At netus diam ipsum cras
+                  turpis imperdiet diam vel consequat. Ultrices in faucibus
+                  sodales sed sed. Enim aenean dignissim sed a non mollis. Sed
+                  ut arcu enim ullamcorper.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="banner__images">
+          <div class="banner__image-purple">
+            <div class="marquee-container">
+              <div class="marquee">
+                <img src="./src/images/row.png" alt="banner" />
+                <img src="./src/images/row.png" alt="banner" />
+                <img src="./src/images/row.png" alt="banner" />
+              </div>
+            </div>
+          </div>
+          <div class="banner__image-yellow">
+            <div class="marquee-container">
+              <div class="marquee">
+                <img src="./src/images/row.png" alt="banner" />
+                <img src="./src/images/row.png" alt="banner" />
+                <img src="./src/images/row.png" alt="banner" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="partners">
+        <div class="container">
+          <div class="row">
+            <div class="partners__content">
+              <div class="partners__description">
+                <h2 class="partners__title">Our Exclusive Partners</h2>
+                <div class="partners__blocks">
+                  <div class="partners__block-item">
+                    <img
+                      src="./src/images/partner-sync.svg"
+                      alt="Partner Sync image"
+                    />
+                  </div>
+                  <div class="partners__block-item">
+                    <img
+                      src="./src/images/partner-influence.svg"
+                      alt="Partner Influence image"
+                    />
+                  </div>
+                  <div class="partners__block-item">
+                    <img
+                      src="./src/images/partner-coding.svg"
+                      alt="Partner Coding image"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="partners__image">
+                <img
+                  src="./src/images/partners-img.png"
+                  alt="Partners banner"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about">
+        <div class="container">
+          <div class="row">
+            <div class="about__content">
+              <h2 class="about__title">About Us</h2>
+              <div class="about__description">
+                <div class="about__text-item">
+                  <h3 class="about__text-item-title">
+                    Top-tier service requires top-tier payouts
+                  </h3>
+                  <p class="about__text-item-text">
+                    We understand that top-tier service requires top-tier
+                    payouts, and that's exactly what we offer. Our competitive
+                    rates ensure that you receive the best possible return on
+                    your investment. Plus, with other exclusive perks that come
+                    with being a part of our community, you can rest assured
+                    that you are in good hands.
+                  </p>
+                </div>
+                <div class="about__text-item">
+                  <h3 class="about__text-item-title">
+                    We value quality over quantity
+                  </h3>
+                  <p class="about__text-item-text">
+                    At our agency, we value quality over quantity. That's why we
+                    guarantee you undivided attention from our seasoned managers
+                    who are dedicated to ensuring your success. With access to
+                    advanced campaign optimization data and metrics, you can
+                    make informed decisions and take your campaigns to new
+                    heights.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="services">
+        <div class="container">
+          <div class="row">
+            <div class="services__content">
+              <div class="services__description">
+                <h2 class="services__title">Services</h2>
+                <div class="services__blocks">
+                  <div class="services__block-item-1">
+                    <h3 class="services__block-item-title">Traffic Sources</h3>
+                    <ul class="services__block-item-list">
+                      <li class="services__block-item-option">Facebook</li>
+                      <li class="services__block-item-option">Snapchat</li>
+                      <li class="services__block-item-option">Google</li>
+                      <li class="services__block-item-option">Twitter</li>
+                    </ul>
+                  </div>
+                  <div class="services__block-item-2">
+                    <h3 class="services__block-item-title">Geos</h3>
+                    <ul class="services__block-item-list">
+                      <li class="services__block-item-option">TIER 1</li>
+                      <li class="services__block-item-option">TIER 2</li>
+                    </ul>
+                  </div>
+                  <div class="services__block-item-3">
+                    <h3 class="services__block-item-title">Payment models</h3>
+                    <ul class="services__block-item-list">
+                      <li class="services__block-item-option">CPL</li>
+                      <li class="services__block-item-option">CPS</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="services__image">
+                <img
+                  src="./src/images/services-img.png"
+                  alt="Services banner"
+                />
+              </div>
+            </div>
+            <div class="services__banner">
+              <h2 class="services__banner-title">
+                Choose
+                <span class="services__banner-title-highlighted-1"
+                  >Excellence</span
+                >, Choose
+                <span class="services__banner-title-highlighted-2"
+                  >Our Agency</span
+                >.
+              </h2>
+              <p class="services__banner-description">
+                You are one step away from our acquaintance
+              </p>
+              <div class="services__banner-button">
+                <button type="button">Sign up</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer__logo">
+            <a href="./index.html">
+              <img src="./src/images/logo/footer-logo.svg" alt="logo"
+            /></a>
+          </div>
+          <div class="footer__nav">
+            <nav class="navbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="./index.html"
+                    >Affiliates</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="./index.html"
+                    >Advertisers</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./index.html">Events</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./index.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./index.html">Terms Of Use</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer__social">
+            <a class="footer__social-facebook footer__social-item" href=""
+              ><img
+                src="./src/images/icons/facebook.svg"
+                alt="Social Media Facebook"
+            /></a>
+            <a class="footer__social-linkedin footer__social-item" href=""
+              ><img
+                src="./src/images/icons/linkedin.svg"
+                alt="Social Media LinkedIn"
+            /></a>
+            <a class="footer__social-instagram footer__social-item" href=""
+              ><img
+                src="./src/images/icons/instagram.svg"
+                alt="Social Media Instagram"
+            /></a>
+          </div>
+          <div class="footer__contacts">
+            <h3 class="footer__contacts-title">Contact Us</h3>
+            <a class="footer__contacts-email" href="mailto:support@markify.com"
+              >support@markify.com</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

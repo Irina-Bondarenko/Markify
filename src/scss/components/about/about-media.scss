@@ -1,0 +1,38 @@
+@include desktop {
+  .about {
+    .container {
+      padding: 50px;
+    }
+
+    &__title::after {
+      left: 43%;
+    }
+  }
+}
+
+@include tablet {
+  .about {
+    .container {
+      padding: 20px;
+    }
+    &__description {
+      flex-direction: column;
+    }
+
+    &__text-item {
+      width: 100%;
+    }
+
+    &__title::after {
+      left: 40%;
+    }
+  }
+}
+
+@include phone-sm {
+  .about {
+    &__title::after {
+      left: 28%;
+    }
+  }
+}

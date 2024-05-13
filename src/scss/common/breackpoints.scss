@@ -1,0 +1,35 @@
+@mixin full-hd() {
+  @media (max-width: $breackpoint_xxl) {
+    @content;
+  }
+}
+
+@mixin desktop() {
+  @media (max-width: $breackpoint_xl) {
+    @content;
+  }
+}
+
+@mixin laptop() {
+  @media (max-width: $breackpoint_md) {
+    @content;
+  }
+}
+
+@mixin tablet() {
+  @media (max-width: $breackpoint_sm) {
+    @content;
+  }
+}
+
+@mixin phone() {
+  @media (max-width: $breackpoint_xs) {
+    @content;
+  }
+}
+
+@mixin phone-sm() {
+  @media (max-width: $breackpoint_xxs) {
+    @content;
+  }
+}
